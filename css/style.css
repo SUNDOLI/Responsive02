@@ -1,6 +1,6 @@
-/* * {
+* {
     outline: 1px solid tomato;
-} */
+}
 
 .header {
     border-bottom: 1px solid #ddd;
@@ -326,13 +326,10 @@
 
     }
 
-    .main_content .title p {
-        margin-bottom: 8px;
+    .main_content .title .desc {
+        margin-bottom: 24px;
     }
 
-    .main_content .inner span {
-        padding: 40px 0;
-    }
 }
 
 .footer {
@@ -382,11 +379,14 @@
 }
 
 @media (max-width:768px) {
+    .footer {
+        padding: 40px 16px;
+    }
+
     .footer .box_wrap {
         display: block;
+        max-width: 100%;
         flex-direction: column;
-        left: 16px;
-
     }
 
     .footer .box01 ul {
