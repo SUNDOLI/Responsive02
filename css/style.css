@@ -319,12 +319,20 @@
 }
 
 @media (max-width:768px) {
+
+
     .main_content .inner {
         flex-direction: column;
 
     }
 
+    .main_content .title p {
+        margin-bottom: 8px;
+    }
 
+    .main_content .inner span {
+        padding: 40px 0;
+    }
 }
 
 .footer {
@@ -377,6 +385,7 @@
     .footer .box_wrap {
         display: block;
         flex-direction: column;
+        left: 16px;
 
     }
 
